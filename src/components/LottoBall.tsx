@@ -26,7 +26,7 @@ export function LottoBall({
 
   return (
     <View style={ballStyle}>
-      <Text style={[styles.text, sizeStyles[size]]}>{number}</Text>
+      <Text style={[styles.text]}>{number}</Text>
     </View>
   );
 }
